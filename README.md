@@ -15,19 +15,27 @@ Simon and Speck are lightweight block ciphers publicly released by the National 
 	<li>Test Simon or Speck encryption/decryption
 		<ul>
 			<li>Test the Simon cipher: 256-bit key, 128-bit blocks, electronic code book mode, encrypt, keyfile, plaintext input, ciphertext output</li>
-			<li>./user simon_256_128 ECB -e keyfile input output</li>
+				<ul>
+					<li>./user simon_256_128 ECB -e keyfile input output</li>
+				</ul>
 		</ul>
 		<ul>
 			<li>Test the Simon cipher: 256-bit key, 128-bit blocks, electronic code book mode, decrypt, keyfile, plaintext input, ciphertext output</li>
-			<li>./user simon_256_128 ECB -d keyfile input output</li>
+				<ul>
+					<li>./user simon_256_128 ECB -d keyfile input output</li>
+				</ul>
 		</ul>
 		<ul>
 			<li>Test the Speck cipher: 256-bit key, 128-bit blocks, electronic code book mode, encrypt, keyfile, plaintext input, ciphertext output</li>
-			<li>./user speck_256_128 ECB -e keyfile input output</li>
+				<ul>
+					<li>./user speck_256_128 ECB -e keyfile input output</li>
+				</ul>
 		</ul>
 		<ul>
 			<li>Test the Speck cipher: 256-bit key, 128-bit blocks, electronic code book mode, decrypt, keyfile, plaintext input, ciphertext output</li>
-			<li>./user speck_256_128 ECB -d keyfile input output</li>
+				<ul>
+					<li>./user speck_256_128 ECB -d keyfile input output</li>
+				</ul>
 		</ul>
 </ol>
 
